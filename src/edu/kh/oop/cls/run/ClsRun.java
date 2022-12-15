@@ -11,6 +11,7 @@ public class ClsRun {
 		ClsService clsS = new ClsService();
 		
 		clsS.ex2();
+		clsS.ex3();
 	
 	}
 }
