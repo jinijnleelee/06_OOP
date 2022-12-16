@@ -98,6 +98,7 @@ public class ClsService {
 		// 같은 기본생성자로 User객체 생성했기 때문에...
 		
 		//해결방법 ` : setter를 이용해서 새로운 값 대입
+		//u2는 지역변수임
 		
 		u2.setUserId("afnk2");
 		u2.setUserPw("5446");
