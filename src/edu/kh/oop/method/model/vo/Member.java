@@ -1,27 +1,26 @@
 package edu.kh.oop.method.model.vo;
 
 public class Member {
-	
 	//필드
 
 	
 	private String memberId;
 	private String memberPw;
-	private String memberNAme;
+	private String memberName;
 	private int memberAge;
 	
 	
 	//생성자
-	//기본생성자
-	//기본생성자 규칙 : 반환형이 없고 클래스와 이름이 같아야 한다.
+	//기본 생성자
+	//기본 생성자 규칙 : 반환형이 없고 클래스와 이름이 같아야 한다.
 	public Member() {}
 
 
-	public Member(String memberId, String memberPw, String memberNAme, int memberAge) {
+	public Member(String memberId, String memberPw, String memberName, int memberAge) {
 		
 		this.memberId = memberId;
 		this.memberPw = memberPw;
-		this.memberNAme = memberNAme;
+		this.memberName = memberName;
 		this.memberAge = memberAge;
 	}
 
@@ -51,13 +50,13 @@ public class Member {
 	}
 
 
-	public String getMemberNAme() {
-		return memberNAme;
+	public String getMemberName() {
+		return memberName;
 	}
 
 
-	public void setMemberNAme(String memberNAme) {
-		this.memberNAme = memberNAme;
+	public void setMemberName(String memberName) {
+		this.memberName = memberName;
 	}
 
 
@@ -73,7 +72,8 @@ public class Member {
 	
 	
 	
-	//매개변수 생성자
+	//매개변수 
+	
 	
 	//매서드
 
